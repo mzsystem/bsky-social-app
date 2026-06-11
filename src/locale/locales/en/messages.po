@@ -326,7 +326,7 @@ msgstr "{0}’s avatar"
 #. The number of active group chat members out of the total number allowed.
 #. placeholder {0}: joinLinkPreview.memberCount
 #. placeholder {1}: joinLinkPreview.memberLimit
-#: src/screens/Messages/JoinRequest.tsx:129
+#: src/screens/Messages/JoinRequest.tsx:136
 msgctxt "group-chat-member-count"
 msgid "{0}/{1}"
 msgstr "{0}/{1}"
@@ -598,7 +598,7 @@ msgid "{following} following"
 msgstr ""
 
 #: src/components/dms/components/GroupChatProfileCard.tsx:62
-#: src/components/dms/InitiateChatFlow.tsx:925
+#: src/components/dms/InitiateChatFlow.tsx:943
 msgid "{handle} can’t be added"
 msgstr "{handle} can’t be added"
 
@@ -606,7 +606,7 @@ msgstr "{handle} can’t be added"
 msgid "{handle} can't be messaged"
 msgstr ""
 
-#: src/components/dms/InitiateChatFlow.tsx:886
+#: src/components/dms/InitiateChatFlow.tsx:904
 msgid "{handle} can’t be messaged"
 msgstr "{handle} can’t be messaged"
 
@@ -1052,7 +1052,7 @@ msgstr ""
 #: src/components/dialogs/MutedWords.tsx:337
 #: src/components/dialogs/StarterPackDialog.tsx:376
 #: src/components/dialogs/StarterPackDialog.tsx:388
-#: src/components/dms/AddMembersFlow.tsx:398
+#: src/components/dms/AddMembersFlow.tsx:413
 #: src/view/com/modals/UserAddRemoveLists.tsx:236
 msgid "Add"
 msgstr ""
@@ -1132,7 +1132,7 @@ msgstr "Add automation label to account"
 msgid "Add emoji reaction"
 msgstr ""
 
-#: src/components/dms/AddMembersFlow.tsx:480
+#: src/components/dms/AddMembersFlow.tsx:495
 msgid "Add group chat members"
 msgstr "Add group chat members"
 
@@ -1866,12 +1866,12 @@ msgstr ""
 msgid "Available"
 msgstr ""
 
-#: src/components/dms/AddMembersFlow.tsx:347
-#: src/components/dms/AddMembersFlow.tsx:515
-#: src/components/dms/AddMembersFlow.tsx:521
-#: src/components/dms/InitiateChatFlow.tsx:520
-#: src/components/dms/InitiateChatFlow.tsx:738
-#: src/components/dms/InitiateChatFlow.tsx:745
+#: src/components/dms/AddMembersFlow.tsx:362
+#: src/components/dms/AddMembersFlow.tsx:530
+#: src/components/dms/AddMembersFlow.tsx:536
+#: src/components/dms/InitiateChatFlow.tsx:538
+#: src/components/dms/InitiateChatFlow.tsx:756
+#: src/components/dms/InitiateChatFlow.tsx:763
 #: src/components/moderation/LabelsOnMeDialog.tsx:334
 #: src/components/moderation/LabelsOnMeDialog.tsx:335
 #: src/screens/Login/ChooseAccountForm.tsx:98
@@ -2236,7 +2236,7 @@ msgstr ""
 #. placeholder {0}: sanitizeHandle(item.feed.creator.handle, '@')
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:847
-#: src/screens/Messages/JoinRequest.tsx:167
+#: src/screens/Messages/JoinRequest.tsx:174
 #: src/screens/Search/components/StarterPackCard.tsx:107
 #: src/screens/Search/Explore.tsx:971
 msgid "By {0}"
@@ -2467,7 +2467,7 @@ msgstr "Chat ended"
 #: src/components/intents/GroupChatJoinDialog.tsx:229
 #: src/components/Post/Embed/JoinRequestEmbed.tsx:99
 #: src/screens/Messages/components/MessageInputEmbed.tsx:331
-#: src/screens/Messages/JoinRequest.tsx:83
+#: src/screens/Messages/JoinRequest.tsx:90
 msgid "Chat invite link no longer available"
 msgstr "Chat invite link no longer available"
 
@@ -2724,7 +2724,7 @@ msgstr ""
 #: src/components/dialogs/nuxs/LiveNowBetaDialog.tsx:200
 #: src/components/dialogs/SearchablePeopleList.tsx:340
 #: src/components/dialogs/StarterPackDialog.tsx:187
-#: src/components/dms/AddMembersFlow.tsx:372
+#: src/components/dms/AddMembersFlow.tsx:387
 #: src/components/dms/AfterReportConversationDialog.tsx:91
 #: src/components/dms/AfterReportConversationDialog.tsx:96
 #: src/components/dms/AfterReportConversationDialog.tsx:247
@@ -2734,7 +2734,7 @@ msgstr ""
 #: src/components/dms/AfterReportDialog.tsx:212
 #: src/components/dms/AfterReportDialog.tsx:217
 #: src/components/dms/EmojiPopup.android.tsx:59
-#: src/components/dms/InitiateChatFlow.tsx:545
+#: src/components/dms/InitiateChatFlow.tsx:563
 #: src/components/intents/GroupChatJoinDialog.tsx:206
 #: src/components/intents/GroupChatJoinDialog.tsx:241
 #: src/components/NewskieDialog.tsx:169
@@ -3043,8 +3043,8 @@ msgstr ""
 msgid "Continue thread..."
 msgstr ""
 
-#: src/components/dms/AddMembersFlow.tsx:312
-#: src/components/dms/InitiateChatFlow.tsx:473
+#: src/components/dms/AddMembersFlow.tsx:327
+#: src/components/dms/InitiateChatFlow.tsx:491
 msgid "Continue to group name"
 msgstr "Continue to group name"
 
@@ -3290,7 +3290,7 @@ msgstr ""
 #. Text on button to create a new starter pack
 #: src/components/dialogs/StarterPackDialog.tsx:113
 #: src/components/dialogs/StarterPackDialog.tsx:210
-#: src/components/dms/InitiateChatFlow.tsx:482
+#: src/components/dms/InitiateChatFlow.tsx:500
 #: src/components/StarterPack/ProfileStarterPacks.tsx:329
 msgid "Create"
 msgstr ""
@@ -3325,7 +3325,7 @@ msgstr ""
 
 #: src/components/WelcomeModal.tsx:158
 #: src/components/WelcomeModal.tsx:166
-#: src/screens/Messages/JoinRequest.tsx:300
+#: src/screens/Messages/JoinRequest.tsx:307
 #: src/screens/Signup/index.tsx:135
 #: src/view/com/auth/SplashScreen.tsx:107
 #: src/view/com/auth/SplashScreen.web.tsx:116
@@ -3358,7 +3358,7 @@ msgstr ""
 msgid "Create another"
 msgstr ""
 
-#: src/components/dms/InitiateChatFlow.tsx:481
+#: src/components/dms/InitiateChatFlow.tsx:499
 msgid "Create group chat"
 msgstr "Create group chat"
 
@@ -3380,7 +3380,7 @@ msgstr ""
 msgid "Create moderation list"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:294
+#: src/screens/Messages/JoinRequest.tsx:301
 #: src/view/com/auth/SplashScreen.tsx:100
 #: src/view/com/auth/SplashScreen.web.tsx:108
 msgid "Create new account"
@@ -5514,7 +5514,7 @@ msgstr ""
 
 #: src/components/dms/ChatInvite/Card.tsx:46
 #: src/components/intents/GroupChatJoinDialog.tsx:294
-#: src/screens/Messages/JoinRequest.tsx:115
+#: src/screens/Messages/JoinRequest.tsx:122
 msgid "Group chat"
 msgstr "Group chat"
 
@@ -5574,13 +5574,13 @@ msgstr "Group chats can only have a maximum of {0, plural, other {# people}}."
 msgid "Group is locked"
 msgstr "Group is locked"
 
-#: src/components/dms/InitiateChatFlow.tsx:242
-#: src/components/dms/InitiateChatFlow.tsx:580
+#: src/components/dms/InitiateChatFlow.tsx:262
+#: src/components/dms/InitiateChatFlow.tsx:598
 #: src/screens/Messages/ConversationSettings/prompts.tsx:42
 msgid "Group name"
 msgstr "Group name"
 
-#: src/components/dms/InitiateChatFlow.tsx:605
+#: src/components/dms/InitiateChatFlow.tsx:623
 #: src/screens/Messages/ConversationSettings/prompts.tsx:61
 msgid "Group name is too long. {MAX_GROUP_NAME_GRAPHEME_LENGTH, plural, other {The maximum number of characters is #.}}"
 msgstr "Group name is too long. {MAX_GROUP_NAME_GRAPHEME_LENGTH, plural, other {The maximum number of characters is #.}}"
@@ -7401,19 +7401,19 @@ msgstr ""
 msgid "New followers"
 msgstr ""
 
-#: src/components/dms/InitiateChatFlow.tsx:241
+#: src/components/dms/InitiateChatFlow.tsx:261
 msgid "New group chat"
 msgstr "New group chat"
 
 #. Button used to create a new group chat.
 #. Button used to create a new group chat.
-#: src/components/dms/InitiateChatFlow.tsx:780
-#: src/components/dms/InitiateChatFlow.tsx:814
+#: src/components/dms/InitiateChatFlow.tsx:798
+#: src/components/dms/InitiateChatFlow.tsx:832
 msgctxt "action"
 msgid "New group chat"
 msgstr "New group chat"
 
-#: src/components/dms/InitiateChatFlow.tsx:278
+#: src/components/dms/InitiateChatFlow.tsx:298
 msgid "New group chat with:"
 msgstr "New group chat with:"
 
@@ -7479,8 +7479,8 @@ msgstr ""
 
 #: src/components/contacts/screens/ViewMatches.tsx:395
 #: src/components/contacts/screens/ViewMatches.tsx:410
-#: src/components/dms/AddMembersFlow.tsx:313
-#: src/components/dms/InitiateChatFlow.tsx:474
+#: src/components/dms/AddMembersFlow.tsx:328
+#: src/components/dms/InitiateChatFlow.tsx:492
 #: src/screens/Login/ForgotPasswordForm.tsx:149
 #: src/screens/Login/ForgotPasswordForm.tsx:156
 #: src/screens/Login/SetNewPasswordForm.tsx:186
@@ -7652,8 +7652,8 @@ msgid "No result"
 msgstr ""
 
 #: src/components/dialogs/SearchablePeopleList.tsx:250
-#: src/components/dms/AddMembersFlow.tsx:245
-#: src/components/dms/InitiateChatFlow.tsx:354
+#: src/components/dms/AddMembersFlow.tsx:260
+#: src/components/dms/InitiateChatFlow.tsx:374
 #: src/components/ProgressGuide/FollowDialog.tsx:221
 msgid "No results"
 msgstr ""
@@ -7823,7 +7823,7 @@ msgstr ""
 
 #: src/components/BotAccountAlert.tsx:52
 #: src/components/BotAccountAlert.tsx:57
-#: src/components/dms/InitiateChatFlow.tsx:713
+#: src/components/dms/InitiateChatFlow.tsx:731
 #: src/components/dms/MessageItem.tsx:641
 #: src/screens/Login/PasswordUpdatedForm.tsx:37
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:663
@@ -7917,7 +7917,7 @@ msgid "Only image files are supported"
 msgstr ""
 
 #. placeholder {0}: createSanitizedDisplayName( joinLinkPreview.owner, true, moderateProfile(joinLinkPreview.owner, moderationOpts).ui( 'displayName', ), )
-#: src/screens/Messages/JoinRequest.tsx:208
+#: src/screens/Messages/JoinRequest.tsx:215
 msgid "Only people {0} follows can join."
 msgstr "Only people {0} follows can join."
 
@@ -8107,13 +8107,13 @@ msgstr ""
 msgid "Opens device gallery to select up to {MAX_GALLERY_IMAGES, plural, other {# images}}, or a single video or GIF."
 msgstr "Opens device gallery to select up to {MAX_GALLERY_IMAGES, plural, other {# images}}, or a single video or GIF."
 
-#: src/screens/Messages/JoinRequest.tsx:295
+#: src/screens/Messages/JoinRequest.tsx:302
 #: src/view/com/auth/SplashScreen.tsx:102
 #: src/view/com/auth/SplashScreen.web.tsx:110
 msgid "Opens flow to create a new Bluesky account"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:281
+#: src/screens/Messages/JoinRequest.tsx:288
 #: src/view/com/auth/SplashScreen.tsx:120
 #: src/view/com/auth/SplashScreen.web.tsx:124
 msgid "Opens flow to sign in to your existing Bluesky account"
@@ -10115,7 +10115,7 @@ msgstr ""
 msgid "Select GIF \"{0}\""
 msgstr ""
 
-#: src/components/dms/InitiateChatFlow.tsx:705
+#: src/components/dms/InitiateChatFlow.tsx:723
 msgid "Select group chat members"
 msgstr "Select group chat members"
 
@@ -10586,8 +10586,8 @@ msgstr ""
 #: src/screens/Login/LoginForm.tsx:179
 #: src/screens/Login/LoginForm.tsx:350
 #: src/screens/Login/LoginForm.tsx:356
-#: src/screens/Messages/JoinRequest.tsx:280
-#: src/screens/Messages/JoinRequest.tsx:286
+#: src/screens/Messages/JoinRequest.tsx:287
+#: src/screens/Messages/JoinRequest.tsx:293
 #: src/screens/Search/SearchResults.tsx:316
 #: src/view/com/auth/SplashScreen.tsx:118
 #: src/view/com/auth/SplashScreen.tsx:124
@@ -10620,7 +10620,7 @@ msgstr ""
 msgid "Sign in or create your account to join the conversation!"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:206
+#: src/screens/Messages/JoinRequest.tsx:213
 msgid "Sign in to accept invite."
 msgstr "Sign in to accept invite."
 
@@ -10632,7 +10632,7 @@ msgstr ""
 msgid "Sign in to Bluesky or create a new account"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:205
+#: src/screens/Messages/JoinRequest.tsx:212
 msgid "Sign in to request access to this group chat."
 msgstr "Sign in to request access to this group chat."
 
@@ -10886,12 +10886,12 @@ msgstr ""
 msgid "Start adding people!"
 msgstr ""
 
-#: src/components/dms/InitiateChatFlow.tsx:706
+#: src/components/dms/InitiateChatFlow.tsx:724
 msgid "Start chat"
 msgstr "Start chat"
 
 #: src/components/dialogs/SearchablePeopleList.tsx:428
-#: src/components/dms/InitiateChatFlow.tsx:854
+#: src/components/dms/InitiateChatFlow.tsx:872
 msgid "Start chat with {displayName}"
 msgstr ""
 
@@ -11048,8 +11048,8 @@ msgstr "Successfully joined the group chat!"
 msgid "Successfully verified"
 msgstr ""
 
-#: src/components/dms/AddMembersFlow.tsx:231
-#: src/components/dms/InitiateChatFlow.tsx:328
+#: src/components/dms/AddMembersFlow.tsx:246
+#: src/components/dms/InitiateChatFlow.tsx:348
 msgid "Suggested"
 msgstr "Suggested"
 
@@ -13164,8 +13164,8 @@ msgstr ""
 msgid "We're having network issues, try again"
 msgstr ""
 
-#: src/components/dms/AddMembersFlow.tsx:185
-#: src/components/dms/InitiateChatFlow.tsx:267
+#: src/components/dms/AddMembersFlow.tsx:200
+#: src/components/dms/InitiateChatFlow.tsx:287
 msgid "We’re having network issues, try again"
 msgstr "We’re having network issues, try again"
 
@@ -13916,11 +13916,11 @@ msgstr ""
 msgid "Your account is not yet old enough to upload videos. Please try again later."
 msgstr ""
 
-#: src/components/dms/InitiateChatFlow.tsx:711
+#: src/components/dms/InitiateChatFlow.tsx:729
 msgid "Your account is too new"
 msgstr "Your account is too new"
 
-#: src/components/dms/InitiateChatFlow.tsx:712
+#: src/components/dms/InitiateChatFlow.tsx:730
 msgid "Your account must be at least 7 days old to create a new group chat."
 msgstr "Your account must be at least 7 days old to create a new group chat."
 
